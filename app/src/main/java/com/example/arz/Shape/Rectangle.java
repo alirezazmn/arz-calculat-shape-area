@@ -16,7 +16,6 @@ public class Rectangle extends AppCompatActivity {
     int length;
     int width;
 
-
     private EditText EditTextLengthArea;
     private EditText EditTextWidthArea;
     private Button calculateAreaBtn;
@@ -25,11 +24,6 @@ public class Rectangle extends AppCompatActivity {
     private EditText EditTextWidthEnvironment;
     private Button calculateEnvironmentBtn;
     private TextView resulteEnvironmentTextview;
-
-   // int Length = 0;
-   // int Width = 0;
-   // int LEngth = 0;
-   // int WIdth = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
