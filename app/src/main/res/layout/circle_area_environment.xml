@@ -1,6 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="55dp">
+
+        <TextView
+            android:id="@+id/TextViewArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="مساحت"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/EditTextRadiusarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:hint="طول را وارد نمایید"
+            android:inputType="number"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/calculateAreaBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="حساب کردن"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/resulteAreaTextView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="نتیجه"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="55sp">
+
+        <TextView
+            android:id="@+id/TextViewEnvironment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="محیط"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/EditTextRadiusEnvironment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:hint="طول را وارد نمایید"
+            android:inputType="number"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/calculateEnvironmentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="حساب کردن"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/resulteEnvironmentTextview"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:text="نتیجه"
+            android:textSize="30sp" />
+    </LinearLayout>
 </LinearLayout>
