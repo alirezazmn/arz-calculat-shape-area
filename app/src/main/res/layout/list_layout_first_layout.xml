@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_100"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/rectangle"
+            android:onClick="Rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:backgroundTint="@color/Buttons"
+            android:text="محیط و مساحت مستطیل"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:onClick="Square"
+            android:backgroundTint="@color/Buttons"
+            android:text="محیط و مساحت مربع"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:fontFamily="@font/iran_sans"
+            android:gravity="center"
+            android:backgroundTint="@color/Buttons"
+            android:text="محیط و مساحت دایره"
+            android:textSize="30sp" />.
+
+    </LinearLayout>
+</LinearLayout>
