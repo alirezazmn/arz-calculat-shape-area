@@ -66,12 +66,12 @@ public class Circle extends AppCompatActivity {
     }
 
     public double calculateArea(double radius) {
-        return 2 * 3 * radius;
+        return 2 * 3.14 * radius;
 
     }
 
     public double calculateEnvironment(double radius) {
-        return radius * 3 * 2;
+        return radius * 3.14 * 2;
 
     }
 

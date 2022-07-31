@@ -53,6 +53,7 @@
             android:layout_height="170dp"
             android:fontFamily="@font/iran_sans"
             android:gravity="center"
+            android:onClick="Circle"
             android:backgroundTint="@color/Buttons"
             android:text="محیط و مساحت دایره"
             android:textSize="30sp" />.
